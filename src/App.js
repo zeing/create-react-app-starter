@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button className="p-4 bg-black">Test Tailwind CSS</button>
       </header>
     </div>
   )
