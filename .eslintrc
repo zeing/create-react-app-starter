@@ -5,13 +5,12 @@
     "es6": true,
     "commonjs": true
   },
-  "plugins": ["react", "react-hooks", "prettier"],
+  "plugins": ["react"],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended",
-    "prettier"
+    "plugin:prettier/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -34,7 +33,6 @@
     "no-nested-ternary": 0,
     "react/no-unescaped-entities": 0,
     "react/display-name": "off",
-    "react-hooks/exhaustive-deps": "off",
     "prettier/prettier": [
       "error",
       {
